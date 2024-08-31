@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <linkhref="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Style+Script&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Focus on <span>Today</span></h1>
+    <main>
+        <div class="container">
+            <div class="stats-container">
+                <div class="details">
+                    <h2>Today <img class="sun-icon" src="images/sun.png" alt="sun" /></h2>
+                    <p>You are doing Great! Keep Learning</p>
+                    <div class="progressBar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div class="stats-numbers">
+                    <p id="numbers">0 / 0</p>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" id="taskInput" placeholder="Add your goals...">
+                <button id="newTask" type="submit">+</button>
+            </form>
+            <ul class="task-list"></ul>
+        </div>
+    </main>
+   <script src="script.js" >
+   </script>
+</html>
